@@ -4,7 +4,7 @@ title: Hackathons
 permalink: /hackathons/
 ---
 
-I like to go to Hackathons and make fun projects for myself and others to enjoy. Here are some of my favourite projects my friends and I have made!
+I like to go to Hackathons and make fun projects for myself and others to enjoy. Here are some of my favourite projects my friends and I have made! You can find more technical information by clicking links in the sections and most of the code is on [my](https://github.com/aswarbs) or [Toby](https://github.com/tobybenjaminclark)'s Github.
 
 ### Jazzhands
 
@@ -64,6 +64,7 @@ We're currently working on getting Jazzhands released on [Steam](https://store.s
 Shapeshifters is an online multiplayer pose estimation game. The goal is to match the poses shown on screen to a better degree of accuracy than your opponent. Toby, Eden and I made this at [Royal Hackaway 2023](https://devpost.com/software/shapeshifters) and <span style="color: #FFA500;">**won third place!**</span>
 
 
+
 <div style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
   <div style="text-align: center;">
     <img src="{{site.baseurl}}/assets/images/sample_portfolio/shapeshifters-eden.png" alt="Eden Posing" style="height:400px;width:auto;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)">
@@ -75,3 +76,21 @@ Shapeshifters is an online multiplayer pose estimation game. The goal is to matc
     <p style="font-style: italic; margin-top: 10px;">MoveNet estimation of Eden's pose.</p>
   </div>
 </div>
+
+### Mole
+
+Mole is a physical computer vision game where you program the main character by colouring in paper, inspired by punchcard computers. Toby and I made this at [Hack the Museum](https://www.hackster.io/tobybenjaminclark/mole-28b94b) and <span style="color:rgb(236, 225, 18);">**won first place!**</span>
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
+  <div style="text-align: center;">
+    <img src="{{site.baseurl}}/assets/images/sample_portfolio/mole-device.jpg" alt="Eden Posing" style="height:400px;width:auto;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)">
+    <p style="font-style: italic; margin-top: 10px;">The physical setup for Mole. You play by drawing coloured dots on paper, and putting it under the camera.</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="{{site.baseurl}}/assets/images/sample_portfolio/mole-demo.jpg" alt="MoveNet" style="height:400px;width:auto;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)">
+    <p style="font-style: italic; margin-top: 10px;">Toby and I demonstrating Mole!</p>
+  </div>
+</div>
+
+### Magicmath
