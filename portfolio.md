@@ -24,7 +24,7 @@ We're currently working on getting Jazzhands released on [Steam](https://store.s
 
 <div style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
   <div style="text-align: center;">
-    <img src="{{site.baseurl}}/assets/images/sample_portfolio/jazzhands-egx.jpg" alt="Jazzhands at EGX" style="width:600px;height:auto;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)">
+    <img src="{{site.baseurl}}/assets/images/sample_portfolio/jazzhands-egx.jpg" alt="Jazzhands at EGX" style="width:600px;height:348px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)">
     <p style="font-style: italic; margin-top: 10px;">Jazzhands playtesting at EGX London :)</p>
   </div>
 
@@ -40,3 +40,19 @@ We're currently working on getting Jazzhands released on [Steam](https://store.s
     <p style="font-style: italic; margin-top: 10px;">Jazzhands Trailer!</p>
   </div>
 </div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://store.steampowered.com/app/2701220/Jazzhands/" 
+     target="_blank" 
+     style="display: inline-block; text-decoration: none; background-color: #ff91a4; color: white; padding: 12px 25px; border-radius: 25px; font-size: 18px; font-weight: bold; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, box-shadow 0.2s ease; font-family: 'Comic Sans MS', cursive, sans-serif;">
+    Play Jazzhands!!!
+  </a>
+</div>
+
+<style>
+  a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    background-color: #ffb6c1;
+  }
+</style>
