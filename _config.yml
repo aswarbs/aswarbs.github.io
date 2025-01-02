@@ -21,7 +21,7 @@ tagline:
 description:
 
 # The full URL to your site. Note: site.github.url will be used by default.
-url:
+url: http://amber.wiki/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -35,20 +35,17 @@ author: amber-swarbrick
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/penguin.png
 
+include: ['_hackathons']
+
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-permalink: /:year/:month/:day/:title/
+collections:
+  hackathons:
+    output: true
+    permalink: /hackathons/:path/
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  email: mkie0125@gmail.com
-  facebook:
-  github: andrewhwanpark/brutalist-blog
-  instagram: andrewhwanpark
-  linkedin: andrewhwanpark
-  rss: # just type anything here for a working RSS icon
-  twitter: andrewhwanpark
+relative_permalinks: false
 
 plugins:
   - jekyll-seo-tag
