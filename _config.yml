@@ -35,7 +35,7 @@ author: amber-swarbrick
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/penguin.png
 
-include: ['_hackathons']
+include: ['_hackathons', '_projects']
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -44,6 +44,10 @@ collections:
   hackathons:
     output: true
     permalink: /hackathons/:path/
+
+projects:
+    output: true
+    permalink: /projects/:path/
 
 relative_permalinks: false
 
