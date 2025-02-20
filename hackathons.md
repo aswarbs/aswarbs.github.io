@@ -13,6 +13,12 @@ I like to go to Hackathons and make fun projects for myself and others to enjoy.
     <p>A gesture-controlled rhythm game, intergalactic themed.</p>
   </div>
 
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+  <div style="width: 300px; text-align: center;">
+    <h3><a href="/hackathons/tavernstalk/">Tavernstalk</a></h3>
+    <p>Pub crawl generator (medieval-themed)!</p>
+  </div>
+
   <div style="width: 300px; text-align: center;">
     <h3><a href="/hackathons/shapeshifters/">Shapeshifters</a></h3>
     <p>An online multiplayer human pose detection game, inspired by Hole in the Wall.</p>
