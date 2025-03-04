@@ -25,6 +25,6 @@ permalink: /submit/
         <label for="entry.178092692">SPILL YOUR THOUGHTS</label>
         <input type="text" name="entry.178092692" id="entry.178092692" required placeholder="Type here...">
 
-        <input type="submit" value="SEND">
+        <input type="submit" value="SEND...">
     </form>
 </div>
