@@ -1,6 +1,12 @@
 ---
 ---
 
-@import "bootstrap-dark";
-@import "syntax-highlighting";
-@import "main";
+@import "imports";
+@import "base";
+@import "layout";
+@import "buttons";
+@import "animations";
+@import "forms";
+@import "thanks";
+@import "about";
+@import "sparkles";

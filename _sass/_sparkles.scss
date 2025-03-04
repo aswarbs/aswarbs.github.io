@@ -1,0 +1,17 @@
+.sparkles {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('{{site.baseurl}}/assets/images/sparkle.png') no-repeat center;
+    background-size: contain;
+    animation: sparkle 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes sparkle {
+    0% { transform: rotate(0deg) scale(1); }
+    100% { transform: rotate(20deg) scale(1.2); }
+}
+
+.sparkle1 { top: -15px; left: 20px; }
+.sparkle2 { top: -10px; right: 30px; animation-delay: 0.5s; }
+.sparkle3 { bottom: -10px; left: 40px; animation-delay: 1s; }
