@@ -45,9 +45,9 @@ collections:
     output: true
     permalink: /hackathons/:path/
 
-projects:
-    output: true
-    permalink: /projects/:path/
+  projects:
+      output: true
+      permalink: /projects/:path/
 
 relative_permalinks: false
 
