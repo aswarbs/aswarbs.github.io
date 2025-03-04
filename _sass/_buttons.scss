@@ -11,3 +11,34 @@
 .btn-home:hover {
     background: #0056b3;
 }
+
+.button-new {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff91a4;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    // Remove border-radius for a more rectangular shape
+    border-radius: 0;
+
+    // Add a box shadow for depth
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+        background-color: #ff7891;
+    }
+
+    &:active {
+        transform: scale(0.98);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}

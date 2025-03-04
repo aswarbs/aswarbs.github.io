@@ -36,8 +36,8 @@ We're currently working on getting Jazzhands released on [Steam](https://store.s
   </iframe>
 
   <a href="https://store.steampowered.com/app/2701220/Jazzhands/" 
-     target="_blank" 
-     style="display: inline-block; text-decoration: none; background-color: #ff91a4; color: white; padding: 12px 25px; border-radius: 25px; font-size: 18px; font-weight: bold; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, box-shadow 0.2s ease; font-family: 'Comic Sans MS', cursive, sans-serif;">
+    target="_blank" 
+    class="button-new">
     Play Jazzhands!!!
   </a>
 </div>
