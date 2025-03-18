@@ -21,25 +21,3 @@ permalink: /projects/
   </div>
 </div>
 
-
-<style>
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-  }
-  h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.3em;
-  }
-  p {
-    font-size: 1em;
-    color: #555;
-  }
-  a {
-    color: #0073e6;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-</style>

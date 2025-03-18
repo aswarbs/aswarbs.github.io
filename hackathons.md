@@ -6,14 +6,12 @@ permalink: /hackathons/
 
 I like to go to Hackathons and make fun projects for myself and others to enjoy. Here are some of my favourite projects my friends and I have made! You can find more technical information by clicking links in the sections and most of the code is on [my](https://github.com/aswarbs) or [Toby](https://github.com/tobybenjaminclark)'s Github.
 
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
   <div style="width: 300px; text-align: center;">
     <h3><a href="/hackathons/jazzhands/">Jazzhands</a></h3>
     <p>A gesture-controlled rhythm game, intergalactic themed.</p>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
   <div style="width: 300px; text-align: center;">
     <h3><a href="/hackathons/tavernstalk/">Tavernstalk</a></h3>
     <p>Pub crawl generator (medieval-themed)!</p>
@@ -46,29 +44,7 @@ I like to go to Hackathons and make fun projects for myself and others to enjoy.
 
   <div style="width: 300px; text-align: center;">
     <h3><a href="/hackathons/intermew/">Intermew</a></h3>
-    <p>An AI-powered job interview assistant, rating your speech, manneurisms, and emotions in live time.</p>
+    <p>An AI-powered job interview assistant, rating your speech, mannerisms, and emotions in live time.</p>
   </div>
 </div>
 
-
-<style>
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-  }
-  h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.3em;
-  }
-  p {
-    font-size: 1em;
-    color: #555;
-  }
-  a {
-    color: #0073e6;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-</style>

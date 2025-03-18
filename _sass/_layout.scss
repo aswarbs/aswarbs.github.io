@@ -4,15 +4,46 @@
     padding: 30px;
     border-radius: 20px;
     position: relative;
+    background-color: #fff; /* Light mode background */
+    color: #000; /* Light mode text */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.thank-you-container {
-    text-align: center;
-    padding: 20px;
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .about-container, .thank-you-container {
+        background-color: #222; /* Dark background */
+        color: #fff; /* Light text */
+    }
+
+    p {
+        color: #ddd !important; /* Lighter text for readability */
+    }
 }
 
-p {
-    font-size: 18px;
-    color: #555;
-    text-align: center;
-}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    p {
+      color: #ddd; /* Light text for dark mode */
+    }
+    a {
+      color: #4da3ff; /* Adjust link color for better visibility in dark mode */
+    }
+  }
+
