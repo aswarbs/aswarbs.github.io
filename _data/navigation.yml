@@ -2,8 +2,6 @@
   link: /
 - name: About
   link: /about/
-- name: Submit
-  link: /submit/
 - name: Hackathons
   link: /hackathons/
 - name: Projects
