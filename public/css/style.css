@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "SuezOne";
+    src: url('../fonts/SuezOne-Regular.ttf') format('truetype');
+}
+
+body {
+font-family: SuezOne, sans-serif;
+background-color: #E5C3D1;
+}

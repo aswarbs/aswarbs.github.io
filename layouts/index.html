@@ -1,4 +1,12 @@
 {{ define "main" }}
-	{{ .Content }}
-  <p>This line is from <code>layouts/index.html</code>.</p>
+  <div class="content-wrapper">
+    <div class="text-box">
+      <h2>My Project Title</h2>
+      <p>This is a paragraph describing my project in a styled box.</p>
+    </div>
+
+    <div class="image-box">
+      <img src="{{ "images/amber-with-birds.jpg" | absURL }}" alt="Project Image" />
+    </div>
+  </div>
 {{ end }}
