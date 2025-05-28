@@ -19,4 +19,4 @@ disableKinds = ['taxonomy', 'term']
     identifier = "Projects"
     name = "Projects"
     url = "/projects/"
-    weight = 2
+    weight = 3

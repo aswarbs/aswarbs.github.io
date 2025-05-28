@@ -1,0 +1,7 @@
+.pane {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
