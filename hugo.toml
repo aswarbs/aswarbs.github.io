@@ -1,4 +1,22 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.amber.wiki/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Amber Swarbrick'
+disableKinds = ['taxonomy', 'term']
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "hackathons"
+    name = "Hackathons"
+    url = "/hackathons/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "Projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2

@@ -1,0 +1,10 @@
+<nav>
+  <ul>
+    {{ range .Site.Menus.main }}
+      {{ $isCurrent := or (eq $.RelPermalink .URL) (hasPrefix $.RelPermalink .URL) }}
+      <li class="{{ if $isCurrent }}active{{ end }}">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
