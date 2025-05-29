@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/test/</loc>
+    <loc>https://www.amber.wiki/projects/test/</loc>
   </url><url>
-    <loc>http://localhost:1313/hackathons/</loc>
+    <loc>https://www.amber.wiki/hackathons/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.amber.wiki/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://www.amber.wiki/projects/</loc>
   </url>
 </urlset>
