@@ -1,4 +1,4 @@
-baseURL = 'http://www.amber.wiki/'
+baseURL = 'https://www.amber.wiki/'
 languageCode = 'en-us'
 title = 'Amber Swarbrick'
 disableKinds = ['taxonomy', 'term']
