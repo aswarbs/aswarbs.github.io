@@ -1,0 +1,12 @@
+.custom-link {
+    color: #7D82B8;        /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;     /* Make it bold */
+    transition: 0.3s;      /* Smooth hover effect */
+}
+
+.custom-link:hover {
+    color: #EF798A;        /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+    text-shadow: 0 0 8px white;
+}

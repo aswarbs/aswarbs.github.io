@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-This line is from `content/projects/_index.md`.
+this is invisible from projects?
 
 
 

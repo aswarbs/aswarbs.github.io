@@ -1,0 +1,17 @@
+.content-wrapper-horizontal {
+  display: flex;
+  align-items: flex-start; /* align top */
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.content-wrapper-vertical {
+  display: flex;
+  flex-direction: column; /* make it vertical */
+  align-items: stretch; /* optional: makes children expand full width */
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 1rem auto;
+}

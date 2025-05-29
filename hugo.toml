@@ -1,4 +1,4 @@
-baseURL = 'https://www.amber.wiki/'
+baseURL = 'http://www.amber.wiki/'
 languageCode = 'en-us'
 title = 'Amber Swarbrick'
 disableKinds = ['taxonomy', 'term']
@@ -22,3 +22,7 @@ disableKinds = ['taxonomy', 'term']
     url = "/hackathons/"
     weight = 3
 
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,12 +1,61 @@
 {{ define "main" }}
-  <div class="content-wrapper">
-    <div class="text-box">
-      <h2>My Project Title</h2>
-      <p>This is a paragraph describing my project in a styled box.</p>
+  <div class="content-wrapper-horizontal">
+
+    <div class="content-wrapper-vertical">
+        <div class="text-box">
+            <h2>Welcome to my Website!</h2>
+            <p>Thank you for browsing my wares. I am Amber ( me -> ),
+            <br> and I use this website to store my projects!
+            </p>
+        </div>
+
+
+        <div class="content-wrapper-vertical">
+
+            <div class="text-box-2">
+                <h2>Welcome to my Website!</h2>
+                <p>Thank you for browsing my wares. I am Amber ( me -> ),
+                <br> and I use this website to store my projects!
+                <br>
+                <br>
+                <br>
+                </p>
+            </div>
+
+            
+        </div>
     </div>
 
     <div class="image-box">
       <img src="{{ "images/amber-with-birds.jpg" | absURL }}" alt="Project Image" />
     </div>
+
+    
+
   </div>
+
+    <div class="content-wrapper-horizontal">
+
+        <div class="image-box">
+        <img src="{{ "images/amber-toby-snowman.jpg" | absURL }}" alt="Project Image" />
+        </div>
+
+        <div class="text-box">
+            <h2>About Me ...</h2>
+            <p> I'm an MSci Student at the 
+        <a href="https://www.nottingham.ac.uk" class="custom-link">University of Nottingham</a>,
+            <br> studying <i>Computer Science with Artificial Intelligence</i>.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </p>
+        </div>
+
+            
+    </div>
+
+
+
 {{ end }}
