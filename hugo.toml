@@ -1,4 +1,4 @@
-baseURL = 'https://www.aswarbs.github.io/'
+baseURL = 'https://aswarbs.github.io/'
 languageCode = 'en-us'
 title = 'Amber Swarbrick'
 disableKinds = ['taxonomy', 'term']
