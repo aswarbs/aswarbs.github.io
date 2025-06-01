@@ -1,11 +1,11 @@
 .text-box-2 {
   background-color: #EF798A;
   border: 8px solid #F7A9A8;
-  padding: 1.5rem;
-  margin: 2rem auto;
-  max-width: 800px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  max-width: 100%;
   color: #E5C3D1;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-box-2 h2 {

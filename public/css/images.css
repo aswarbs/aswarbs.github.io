@@ -1,21 +1,14 @@
-/* Add border and optional styling to all images */
-img {
-  border: 4px solid #7D82B8; /* match your nav border */
-  border-radius: 8px;         /* optional: soften corners */
-  max-width: 100%;            /* prevent overflow */
-  height: auto;               /* maintain aspect ratio */
-  display: block;             /* avoids inline image spacing bugs */
-}
 
-.image-box {
-  flex: 1;
-  display: flex;
+.image-box { 
   justify-content: center;
   align-items: center;
-}
+} 
+
+
+
 
 .image-box img {
-  max-width: 100%;
+  max-width: 100%; 
   height: auto;
   border: 8px solid #7D82B8;
   object-fit: cover;
