@@ -47,5 +47,5 @@
 
 /* Prevent content being hidden behind fixed nav */
 body {
-  padding-top: 3.5rem; /* adjust if you change nav height */
+  padding-top: 6rem; /* adjust if you change nav height */
 }
