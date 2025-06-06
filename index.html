@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<div class="archive">
-  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
-  if currDate != date %}
-  <h1 class="archive-year">{{ currDate }}</h1>
-  {% assign date = currDate %} {% endif %}
-  <div class="archive-item">
-    <span class="post-date archive-date fs-4"
-      >{{ post.date | date: "%B %d, %Y" }}</span
-    >
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
-      >{{ post.title }}</a
-    >
-  </div>
-  {% endfor %}
+<div class="about-container">
+    <div class="sparkles sparkle1"></div>
+    <div class="sparkles sparkle2"></div>
+    <div class="sparkles sparkle3"></div>
+
+    <p>Hello! I'm <strong>AMBER</strong>. Welcome to my website!</p>
+    <br>
+
+    <img src="{{site.baseurl}}/assets/images/amber-with-birds.jpg" 
+         alt="Amber with birds" class="profile-image">
+
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
 </div>
+

@@ -1,7 +1,5 @@
-- name: Home
-  link: /
 - name: About
-  link: /about/
+  link: /
 - name: Hackathons
   link: /hackathons/
 - name: Projects
